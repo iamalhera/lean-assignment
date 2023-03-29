@@ -1,0 +1,135 @@
+.app__homepage {
+    color: var(--background-dark);
+}
+/* section white */
+.homepage__section-off-white {
+    width: 100%;
+    margin: auto;
+}
+
+.hero-section {
+    background-color: var(--offwhite-2-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.hero-section p {
+    margin: 1rem 0;
+    color: rgb(117, 111, 111);
+}
+
+.button-panel button {
+    padding: 1rem 1.5rem;
+}
+
+.hero-section img {
+    height: 60vh;
+}
+
+.img-panel {
+    display: flex;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+.img-panel img {
+    height: 2rem;
+    width: 5.8rem;
+}
+
+
+/* section 2 offwhite*/
+.homepage__section-white {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2 {
+    display: flex;
+    width: 80%;
+}
+
+.hero-2-left {
+    margin: auto;
+}
+
+.hero-2-left img {
+    height : 45rem;
+    width : 35rem;
+
+}
+
+article {
+    display: flex;
+    gap: 1rem;
+    height: 150px;
+    width: 400px;
+    margin: 3rem;
+}
+article p{
+    padding-top : 1rem ;
+}
+
+article img {
+    height: 4rem;
+    width: 4rem;
+}
+
+hr {
+    margin: 1rem 0;
+}
+/* section cream */
+.homepage__section-cream{
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    background-color: var(--cream-color);
+    text-align: center;
+    gap : 2rem ;
+    padding-top : 8rem ;
+}
+.homepage__section-cream p{
+    font-size : 1.3rem ;
+    padding : 1rem ;
+}
+.button-box .primary-cta{
+    padding : 1rem 2.5rem ;
+}
+/* section white again */
+.homepage__section-white-2{
+    padding : 8rem;
+    gap : 3rem ;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color : var(--background-dark);
+}
+.article-cards{
+    display: flex;
+    flex-direction: row;
+    gap : 2rem ;
+}
+
+.user-card{
+    height : 30rem;
+    width : 22rem;
+    border : 1px solid lightgray;
+    border-radius : 5px ;
+    padding : 2rem ;
+}
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    align-items: center;
+    margin-top : 4rem ;
+}
+.user-detail h6{
+    margin : 1rem 0 0.3rem 0;;
+}
