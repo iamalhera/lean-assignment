@@ -1,0 +1,114 @@
+.app__signin {
+    margin: 2rem;
+    width: 80%;
+}
+
+.sign__left,
+.sign__right {
+    width: 50%;
+}
+
+.sign-form {
+    padding: 4rem;
+    margin: 1rem 0;
+}
+
+.sign-description {
+    margin: 1rem 0;
+}
+
+.highlighted-text {
+    font-weight: 700;
+    color: var(--background-dark);
+}
+
+.form-section {
+    margin-top: 1.5rem;
+}
+
+.form-section input {
+    width: 75%;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    color: var(--background-dark);
+    border-bottom: 3px solid gray;
+}
+
+::placeholder {
+    color: var(--background-dark);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.form-section input.active {
+    border-bottom: 3px solid var(--background-dark);
+}
+
+.form-section label,
+.form-section-2 label {
+    color: gray;
+}
+
+.checkbox {
+    margin: 5px;
+}
+
+.form-section-2 {
+    width: 75%;
+    justify-content: space-between;
+}
+.form-section-2 input{
+    margin-right : 5px ;
+}
+
+form button {
+    width: 75%;
+    margin: 2rem 0;
+}
+
+.gray-text {
+    color: darkgray;
+    text-align: center;
+    width: 75%;
+    margin: 1rem 0;
+}
+
+.social-icons-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.social-icon {
+    padding: 0.75rem;
+}
+
+.social-icon svg {
+    font-size: 2.5rem;
+}
+
+.sign-right-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: var(--background-dark);
+    color: white;
+    padding : 1rem ;
+}
+
+.sign__right svg {
+    font-size: 1.4rem;
+}
+.right-top {
+    text-align: right;
+}
+.right-middle{
+    width : 70% ;
+    height : 80% ;
+    margin : auto;
+}
+.right-bottom{
+    margin : 3rem 3rem 3rem 8rem ;
+}
