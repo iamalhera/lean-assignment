@@ -1,0 +1,17 @@
+.app__navbar{
+    /* background-color : var(--offwhite-color); */
+    height : 5rem;
+    width : 90%;
+    justify-content: space-between;
+    padding : 0 3rem ;
+}
+.navbar__left img{
+    height : 4.5rem ;
+    margin-right : 2rem;
+}
+a{
+    text-decoration: none;
+    color : var(--primary-text);
+    font-weight: 500;
+    margin : 0 1rem;
+}
