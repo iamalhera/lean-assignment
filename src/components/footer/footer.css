@@ -1,0 +1,65 @@
+.app__footer{
+    width : 100vw;
+    height : 100vh;
+}
+
+.app__footer-upper{
+    background-color: var(--primary-color);
+    color : var(--white-color);
+    padding : 8rem ;
+    justify-content: space-between;
+}
+.touch-button{
+    padding : 1rem ;
+    color : var(--background-dark);
+    background-color: var(--white-color);
+    margin : 1rem ;
+    display : flex ;
+    align-items: center;
+    justify-content: center;
+    font-size : 1.4rem ;
+    font-weight: 500;
+    border-radius: 2.5rem ;;
+}
+.touch-button svg{
+    font-size: 1.5rem ;
+    margin-right : 1rem ;
+}
+.highlighted-yellow{
+    color : goldenrod;
+}
+
+
+.footer-lower-top{
+    padding : 6rem ;   
+    justify-content: space-between;
+}
+.lower-section-4 .first-link{
+    font-weight: 700;
+    font-size : 1.2rem ;
+    padding-bottom : 0.75rem ;
+}
+.lower-section-4 .logo{
+    width : 7rem ;
+    height : 3rem ;
+    margin-bottom : 1rem ; 
+}
+.lower-section-4 a{
+padding : 0.6rem ;
+color : #455880;
+}
+.social-link-5{
+    padding : 0 0.4rem ;
+    cursor: pointer ;
+}
+.footer-lower-bottom{
+    width : 80% ;
+    margin : auto;
+    justify-content: space-between;
+}
+.footer-lower-bottom p{
+    color : gray;
+}
+.footer-lower-bottom a{
+    cursor: pointer ;
+}
